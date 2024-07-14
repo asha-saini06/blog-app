@@ -13,7 +13,6 @@ Dive into WordSmith, a Next.js blog where creativity meets technology. With serv
 - **API Security**: Techniques to secure APIs.
 - **Pagination**: Implemented to enhance user experience.
 - **React-Quill**: Rich text editor for content management.
-- **Tailwind CSS**: For responsive and modern styling.
 
 ## Installation
 
@@ -54,7 +53,6 @@ Explore the blog posts and functionality of WordSmith after starting the develop
 - State management with Context API.
 - Secure authentication and API endpoints.
 - Rich text editing with React-Quill.
-- Responsive design with Tailwind CSS.
 
 ## Features
 
