@@ -9,35 +9,45 @@ Dive into WordSmith, a Next.js blog where creativity meets technology. With serv
 - **Prisma**: ORM for database interaction.
 - **MongoDB**: NoSQL database for data storage.
 - **Context API**: For state management.
-- **JWT**: For token-based authentication.
 - **API Security**: Techniques to secure APIs.
 - **Pagination**: Implemented to enhance user experience.
 - **React-Quill**: Rich text editor for content management.
+- **Firebase**: For image uploads.
 
 ## Installation
 
 To run this project locally, follow these steps:
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/asha-saini06/blog-app.git
    cd blog-app
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    ```
 
 3. Set up environment variables:
    - Create a `.env` file in the root directory and add the following variables:
-     
+
      ```env
-     DATABASE_URL="your_mongodb_connection_string"
-     JWT_SECRET="your_jwt_secret"
+     GOOGLE_ID=your_google_id
+     GOOGLE_SECRET=your_google_secret
+
+     NEXTAUTH_URL=http://localhost:3000
+     NEXTAUTH_SECRET=samplesecretid
+
+     DATABASE_URL=your_mongodb_connection_string
+
+     FIREBASE_API_KEY=your_firebase_api_key
      ```
 
 4. Start the development server:
+
    ```bash
    npm run dev
    ```
